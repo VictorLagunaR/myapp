@@ -12,45 +12,67 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif-black"
         android:paddingTop="40dp"
         android:text="WHAT'S HERE"
         android:textAlignment="center"
-        android:textSize="50dp"
-        android:fontFamily="sans-serif-black"
         android:textColor="@color/white"
-        android:layout_gravity="center"
-        />
+        android:textSize="50dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#ff98a2"
+        android:paddingBottom="10dp"
         android:text="  Email address"
         android:textColor="#ff98a2"
-        android:textSize="20dp"
-        android:paddingBottom="10dp"/>
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/PswrdEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="  Password"
-        android:textSize="20dp"
-        android:textColor="#ff98a2"
-        android:backgroundTint="#ff98a2"
         android:layout_marginBottom="30dp"
-        />
+        android:backgroundTint="#ff98a2"
+        android:text="  Password"
+        android:textColor="#ff98a2"
+        android:textSize="20dp" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#8c2639"
+        android:paddingVertical="20dp"
         android:text="Login"
         android:textColor="@color/white"
-        android:backgroundTint="#8c2639"
-        android:paddingVertical="20dp"/>
-    <Button
+        android:textSize="17dp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="transparent"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="forget password?"
+        android:textColor="#ff98a2"
+        android:textSize="17dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="-------------   or -------------"
+        android:textColor="#ff98a2"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="s͟i͟g͟n͟ ͟u͟p͟"
+        android:textColor="#ff98a2"
+        android:textSize="17dp" />
 </LinearLayout>
